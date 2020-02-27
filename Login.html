@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+	<link rel="shortcut icon" href="img/logo.png"/>
+	<title>Khóa Học Tiếng Hàn Online</title>
+    <link rel="stylesheet" href="style1.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+	<!-- <link rel="stylesheet" href="css/font-awesome.min.css"> -->
+</head>
+<body>
+
+<div class="logo">
+    <center><h1>TMG</h1></center>
+</div>
+<div class="login-block">
+    <h1>Login</h1>
+    <input type="text" placeholder="Username" id="username"/>
+    <input type="password" value="" placeholder="Password" id="password" />
+    <button onclick="emailIsValid()">Submit</button>
+</div>
+<script>
+    function emailIsValid () {
+        var email = document.getElementById('username').value;
+        // var reg = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
+        // var ktemail = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        // var ktkytu = /\d/;
+        if (!ktkytu.test(email)) 
+        {
+            console.log("sai");
+        }
+        else console.log("ok");
+    }
+</script>
