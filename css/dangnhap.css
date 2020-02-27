@@ -4,6 +4,11 @@ body {
     font-family: Montserrat;
 }
 
+.topdangnhap
+{
+    border-bottom: cadetblue solid 1px;
+}
+
 .logo {
     width: 213px;
     height: 36px;
@@ -11,12 +16,13 @@ body {
 }
 
 .login-block {
-    width: 320px;
-    padding: 20px;
+    width: 450px;
+    padding: 30px;
     background: #fff;
     border-radius: 5px;
     border-top: 5px solid #ff656c;
-    margin: 0 auto;
+    margin: 70px auto;
+    border: cadetblue solid 1px;
 }
 
 .login-block h1 {
